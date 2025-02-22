@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const ListadoNoticias = ({ noticias }) => {
     return (
-        <div className="row row-cols-1 row-cols-md-3 g-4">
+        <div className="row row-cols-1 row-cols-md-3 g-4 mb-4">
             {noticias.map((noticia) => (
                 <Noticia key={noticia.url} noticia={noticia} />
             ))}
